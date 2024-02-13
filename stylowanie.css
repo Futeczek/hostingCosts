@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+body{
+    margin: 0;
+    background-image: url('photos/abcd.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.server{
+    height: 3em;
+    padding: 1em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.server h1{
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: darkcyan;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plan{
+    color: white;
+    padding: 2.5rem;
+    margin: 12px;
+    background-color: rgb(17, 52, 52);
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+.plan h2{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.plan .price{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.plan ul.details {
+    list-style-type: none;
+    text-align: left;
+}
+.plan ul.details li {
+    margin: 8px;
+}
+i.fa-times{
+    color: red;
+}
+i.fa-check{
+    color: rgb(46, 180, 46);
+}
+.plan .fa-solid{
+    margin-right: 5px;
+}
+.plan a{
+    display: block;
+    margin-top: 1.5rem;
+    padding: 11px 32px;
+    color: white;
+    background-color: rgb(20, 101, 20) ;
+    border-radius: 7px;
+    font-size: 1.4em;
+}
+.plan.best{
+    border: 3px solid rgb(29, 185, 29);
+}
+.popular{  
+    position: relative;
+}
+.plan.best span{
+    position: absolute;
+    left: -74px;
+    top: -20px;
+    width: 130px;
+    background-color: rgb(29, 185, 29);
+    color:  white;
+    transform: rotate(-45deg);
+    font-size: 1.2em;
+    font-weight: 20px;
+}
+.zdj {
+    position: relative;
+}
+.zdj img{
+    position: absolute;
+    height: 4em;
+    right: -1.3em;
+}
